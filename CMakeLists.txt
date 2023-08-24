@@ -194,3 +194,5 @@ endif()
 if(GAPP_BUILD_EXAMPLES AND PROJECT_IS_TOP_LEVEL)
     add_subdirectory("${CMAKE_CURRENT_SOURCE_DIR}/examples")
 endif()
+
+add_subdirectory("${CMAKE_CURRENT_SOURCE_DIR}/e-g1")
